@@ -1,0 +1,626 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
+
+body {
+    margin: 0;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: inherit;
+    color: inherit;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.topnav {
+    width: 100%;
+    position: fixed;
+    overflow: hidden;
+    background-color: #fff;
+    border-bottom: 1px solid #EDEBE9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    box-shadow: 10px 5px 5px #EDEBE9;
+}
+
+.gaurab-logo {
+    height: 80px !important;
+    width: 102px !important;
+    border-radius: 58%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.topnav a:active {
+    font-weight: 600;
+    color: rgb(44, 95, 95)
+}
+
+.navbar {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+.navbar a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #28343A;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: end;
+}
+
+.link-icon,
+.link-name {
+    color: #000;
+}
+
+.link-icon svg {
+    width: 20px;
+    height: 20px
+}
+
+
+.link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+}
+
+.link a {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    display: flex;
+    gap: 4px;
+}
+
+
+.topnav a {
+    float: left;
+    /* display: block; */
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: flex;
+    gap: 10px;
+}
+
+.topnav a:hover {
+    /* background-color: #ddd; */
+    color: rgb(57, 114, 114);
+}
+
+.topnav .icon {
+    display: none;
+}
+
+.store-button {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.store-link {
+    padding: 0px !important;
+}
+
+.navbar-nav .border {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background: #000;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.navbar-nav .store-icon {
+    gap: 8px;
+    display: flex;
+    align-items: center;
+}
+
+
+/* bodd-start */
+.img img {
+    height: 435px;
+    border-radius: 0.5rem;
+    opacity: 0.9;
+}
+
+.anchor {
+    color: #000;
+}
+
+.anchor:hover {
+    color:rgb(37, 82, 82);
+}
+
+.profile h3 {
+    font-size: 1rem;
+    font-weight: 300;
+    color: rgba(0, 0, 0, .54);
+    margin: 0 0 10px;
+}
+
+.home {
+    padding-top: 100px;
+    padding-top: 100px;
+    /* background: black; */
+    /* background: linear-gradient(to bottom, #000, #222); Adjust the colors as needed */
+
+}
+/* .bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 160%;
+    z-index: -1;
+    opacity: 0.9;
+    overflow: hidden; 
+}
+.bg-video__content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}   */
+
+.network-profile {
+    display: inline;
+}
+
+.row-contain {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* align-items: center; */
+}
+
+.profile {
+    text-align: center;
+}
+
+.home-second {
+    width: 49%;
+    font-size: 1.1rem;
+}
+
+.home-first {
+    display: flex;
+    /* width: 20%; */
+    flex-direction: column;
+}
+
+.network {
+    text-align: center;
+}
+
+.profile-main {
+    display: flex;
+    width: 90%;
+    justify-content: center;
+}
+
+ul.ul-edu li .description p.institution {
+    font-size: .75rem;
+    color: rgba(0, 0, 0, .6);
+}
+
+.description {
+    line-height: 5px;
+}
+
+.mission {
+    margin-top: 58px;
+    background: #fdfbe4;
+    height: 30vh;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-size: 27px;
+    gap: 27px;
+}
+
+.mission-h {
+    width: 50%;
+}
+
+.col {
+    width: 50% !important;
+}
+
+.card-title {
+    font-weight: bold !important;
+}
+
+.section {
+    padding-bottom: 60px;
+}
+
+/* body-end */
+
+
+/* publication */
+.publications {
+    padding-top: 90px;
+}
+
+.author {
+    font-weight: bold;
+}
+
+.publication-all {
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+}
+
+.publication-post {
+    display: flex;
+    flex-direction: column;
+    gap: 41px;
+}
+.publication-posted
+{
+padding: 1rem 3rem 0;
+    margin-bottom: 3rem;
+}
+
+.publication-heading {
+    padding: 2rem;
+    width: 46%;
+}
+
+.publication-heading h2 {
+    font-size: 2.8rem;
+    color: #a0a0a0;
+}
+
+
+
+.sub-post-pub {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.research-whole {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 2rem !important;  
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+
+    
+}
+.research-img {
+    text-align: center; /* Center-align the content within .research-img */
+}   
+
+.research-img img {
+    /* border: 1px solid red; */
+    height: 280px;
+    margin-bottom: 1rem;
+}
+figcaption{
+    font-style: italic;
+    text-align: center;
+    display: block;
+}
+.specialFig {
+    font-style: italic;
+    text-align: center;
+    display: block;
+    width: 50%;
+    margin:0 auto;
+}
+
+.interest-content-top {
+    width: 60%;
+    margin-top: 6rem;
+}
+.interest-content {
+    width: 50%;
+}
+
+/* research-interest */
+
+
+
+
+
+
+
+
+/* footer-start */
+.footer-distributed {
+    background: #181414;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 1.3rem 3rem;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+    width: 40%;
+}
+
+
+
+.footer-distributed h3 {
+    color: #ffffff;
+    font: normal 36px 'Open Sans', cursive;
+    margin: 0;
+}
+
+.footer-distributed h3 span {
+    color: lightseagreen;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links {
+    color: #ffffff;
+    padding: 0;
+}
+
+.footer-distributed .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    font-weight: 400;
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-distributed .footer-company-name {
+    color: #222;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center {
+    width: 35%;
+}
+
+.footer-distributed .footer-center i {
+    background-color: #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 0.5rem 1rem;
+    vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footer-distributed .footer-center p {
+    display: inline-block;
+    color: #ffffff;
+    font-weight: 400;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+    color: lightseagreen;
+    text-decoration: none;
+    ;
+}
+
+.footer-distributed .footer-links a:before {
+    content: "|";
+    font-weight: 300;
+    font-size: 20px;
+    left: 0;
+    color: #fff;
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+    content: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right {
+    width: 20%;
+}
+
+.footer-distributed .footer-company-about {
+    line-height: 20px;
+    color: #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+    display: block;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons {
+    margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #33383b;
+    border-radius: 2px;
+
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+
+@media (max-width: 880px) {
+   
+
+    .specialFig {
+        width: 80%;
+    }
+    .interest-content-top {
+        width: 80%;
+        margin-top: 6rem;
+    }
+    .interest-content {
+        width: 80%;
+    }
+
+    .footer-distributed {
+        font: bold 14px sans-serif;
+    }
+
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .footer-distributed .footer-center i {
+        margin-left: 0;
+    }
+
+}
+
+
+/* footer-end */
+
+
+
+/* media-quries */
+
+@media screen and (max-width:1042px) {
+  
+    .home-second {
+        width: 90%;
+    }
+
+   
+    .home-first {
+        width: 90%;
+    }
+
+    .mission-h {
+        width: 90%;
+    }
+
+    .mission {
+        height: fit-content;
+    }
+
+    .col {
+        width: 90% !important;
+    }
+
+    .publication-heading {
+        width: 100%;
+
+    }
+
+    .publication-all {
+        gap: 15px;
+    }
+
+    .publication-heading h2 {
+        font-size: 1.8em;
+    }
+
+    .publications .container {
+        width: 95%;
+    }
+
+    .research-whole {
+        margin-bottom: 4rem;
+        justify-content: center;
+    }
+}
+ 
+
+
+@media screen and (max-width:430px) {
+
+    .publication-all {
+        flex-wrap: wrap;
+    }
+
+}
+
+@media screen and (max-width:800px) {
+    .research-img img {
+        max-height: 160px;
+    }
+}
